@@ -1,0 +1,97 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    overflow-x: hidden;
+    
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.2rem; }
+h5 { font-size: 1rem; font-weight: bold; }
+h6 { font-size: 1rem; }
+
+/* 
+    BANNER
+*/
+
+.banner-refresh {
+    display: contents;
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 50vw;
+    min-height: 400px;
+    max-height: 600px;
+    min-width: 300px;
+    color:rgb(16, 108, 174);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://www.mboutrecht.nl/wp-content/uploads/2020/10/MBO-Utrecht-2020-algemeen-52-1920x630.jpg); 
+    /* background: radial-gradient( #2A2541 40%,#15121e 100%);   */
+    z-index: 3; 
+}
+
+.header .info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    
+
+}
+
+.header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: -1rem;
+}
+
+.header .meta {
+    font-size: 1rem;
+    margin-top: -2rem;
+    opacity: 1;
+}
+
+/* 
+    NAV BAR
+*/
+
+/* 
+    Container
+*/
+
+.container {
+    height: 50vw;
+    min-height: 200px;
+    max-height: 400px;
+    min-width: 300px;
+    background-color: #15121e;
+}
+
+/* 
+    FOOTER
+*/
+
+
+
+
+
+
+
+
+
