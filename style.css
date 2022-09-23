@@ -38,32 +38,19 @@ code {
 	padding: 0;
 }
 
-#footer {
-	background-color: #246c;
-	background-image: linear-gradient(to bottom, transparent, #0009);
-	border-top: 1px solid #fff3;
-	box-shadow: inset 0 1px 0 #fff3, 0 0 32px #000;
-	overflow: hidden;
-	padding: 8px;
-	position: fixed;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 9001;
+button{
+	box-shadow:inset 0px 1px 0px 0px #263340;
+	background:linear-gradient(to bottom, #263340 5%, #263340 100%);
+	background-color:rgb(89, 255, 128);
+	border-radius:11px;
+	border:2px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263340;
 }
-#footer a {
-	color: #85c6f6;
-	padding: 1em 0;
-	text-decoration: none;
-}
-#footer ul {
-	display: flex;
-	list-style: none;
-	justify-content: center;
-	font-size: 2em;
-	font-weight: 300;
-}
-#footer ul li {
-	padding: 0 .5em;
-}
-
