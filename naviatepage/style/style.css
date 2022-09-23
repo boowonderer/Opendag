@@ -54,6 +54,7 @@ img {
       overflow: hidden;
       padding-bottom: 1rem;
       top: 5%;
+      
     }
 
     #b1 {
@@ -351,10 +352,6 @@ img {
 
     .text-blue {
       color: #156bc1;
-    }
-
-    .text-left {
-      text-align: left;
     }
 
     .text-center {
