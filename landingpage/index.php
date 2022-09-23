@@ -14,6 +14,7 @@
 
 <body>
 
+
     <button class="banner-refresh" onClick="history.go(0);">
         <div class="header">
             <div class="info">
@@ -26,12 +27,14 @@
     </button>
     <div class="container">
     </div>
+
     
     <link rel="stylesheet" href="css/footer.css">
 
+
     
 
-
+    <?php include("./footer.php"); ?>
 
 </body>
 
