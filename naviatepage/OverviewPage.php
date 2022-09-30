@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
 
-    <a href="./verdieping3.html" class="btn purple">Verdieping 3</a>
+    <a href="./verdieping3.php" class="btn purple">Verdieping 3</a>
 
     <br>
-    
-    <a href="./verdieping4.html" class="btn purple">Verdieping 4</a>
-    
+
+    <a href="./verdieping4.php" class="btn purple">Verdieping 4</a>
+
 </body>
+
 </html>
