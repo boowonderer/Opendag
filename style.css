@@ -54,3 +54,44 @@ button{
 	text-decoration:none;
 	text-shadow:0px 1px 0px #263340;
 }
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+	box-shadow:inset 0px 1px 0px 0px #263340;
+	background:linear-gradient(to bottom, #263340 5%, #263340 100%);
+	background-color:rgb(89, 255, 128);
+	border-radius:11px;
+	border:2px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263340;
+}
+
+input[type=submit]:hover {
+  background-color: #263340;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}

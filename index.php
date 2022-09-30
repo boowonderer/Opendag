@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="style.css">
-<script type="text/javascript" src="script.js"></script>
+
 
 
 <div class="content">
@@ -13,6 +13,7 @@
     <br>
     <strong style="font-size:1.5rem;">Contact</strong>
     <ul>
+
         <li>Vragen over je aanmelding, plaatsing of kennismaking:
             <ul>WhatsApp: 06-25705051 (op schooldagen bereikbaar tussen 10.00 en 17.00 uur) </ul>
             Mail: <ul>aanmelden@mboutrecht.nl </ul>
@@ -27,55 +28,13 @@
             <ul>Daltonlaan 300
                 3584 BtK Utrecht</ul>
 
+
     </ul>
     </li>
     </ul>
-
     <br>
-    <?php if (isset($message)) : ?>
-    <div class="alert alert-success">
-        <?= $message ?>
-    </div>
-    <?php endif ?>
-
-    <form action="index.php" method="post">
-        <header>
-            <h1>Contact</h1>
-        </header>
-        <br>
-        <ul>
-            <div>
-                <label for="name">Naam:</label>
-                <input type="text" value="<?= $inputs['name'] ?? '' ?>" name="name" id="name" placeholder="Naam">
-                <small><?= $errors['name'] ?? '' ?></small>
-            </div>
-        </ul>
-        <ul>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email" value="<?= $inputs['email'] ?? '' ?>"
-                    placeholder="Email address">
-                <small><?= $errors['email'] ?? '' ?></small>
-            </div>
-        </ul>
-        <ul>
-            <div>
-                <label for="subject">Onderwerp:</label>
-                <input type="subject" name="subject" id="subject" value="<?= $inputs['subject'] ?? '' ?>"
-                    placeholder="Onderwerp">
-                <small><?= $errors['subject'] ?? '' ?></small>
-            </div>
-        </ul>
-        <ul>
-            <div>
-                <label for="message">Bericht:</label>
-                <textarea id="message" name="message" rows="5"><?= $inputs['message'] ?? '' ?></textarea>
-                <small><?= $errors['message'] ?? '' ?></small>
-            </div>
-        </ul>
-        <ul>
-            <br>
-            <button onclick="myFunction()">Verzend</button>
-    </form>
+    <ul>
+        <button onclick="location.href='./formulier.php'">Formulier</button>
     </ul>
+
 </div>
