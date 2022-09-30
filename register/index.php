@@ -14,12 +14,12 @@ $error_messages = [
 <form action="register_form.php" class="form-style-9" method="post">
     <ul>
         <li>
-            <input type="text" name="voornaam" class="field-style field-split align-left" placeholder="Voornaam" />
-            <input type="text" name="achternaam" class="field-style field-split align-right" placeholder="Achternaam" />
+            <input type="text" name="voornaam" class="field-style field-split align-left" placeholder="Voornaam" required />
+            <input type="text" name="achternaam" class="field-style field-split align-right" placeholder="Achternaam" required />
 
         </li>
         <li>
-            <input type="email" name="email" class="field-style field-split align-right" placeholder="Email" />
+            <input type="email" name="email" class="field-style field-split align-right" placeholder="Email" required />
             <select class="field-style field-split align-right" name="course">
                 <?php
                 if ($result->num_rows > 0) {
