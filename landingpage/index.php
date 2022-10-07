@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
+   
     
     <!-- wordt alleen gebruikt voor incons in footer -->
 
@@ -14,7 +15,7 @@
 
 <body>
 
-
+ <?php include("header.php"); ?>
     <button class="banner-refresh" onClick="history.go(0);">
         <div class="header">
             <div class="info">
@@ -28,13 +29,14 @@
     <div class="container">
     </div>
 
-    
-    <link rel="stylesheet" href="css/footer.css">
 
 
     
 
     <?php include("./footer.php"); ?>
+    
+ 
+    <script src="script.js"></script>
 
 </body>
 
