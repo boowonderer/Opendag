@@ -24,11 +24,11 @@ if ($opleiding_results->num_rows > 0) {
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./stye.css">
 </head>
 
 <body>
-    <table>
+    <table class="styled-table">
         <caption>Lijst van gebruikers</caption>
         <thead>
             <tr>
@@ -47,7 +47,7 @@ if ($opleiding_results->num_rows > 0) {
                     $email = $row["email"];
                     $opleiding = $opleidingen[$row["opleiding_id"]];
                     echo <<<XYZ
-                            <tr>
+                            <tr class='active-row'>
                                 <td>$voornaam</td>
                                 <td>$achternaam</td>
                                 <td>$email</td>
