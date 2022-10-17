@@ -11,7 +11,7 @@
 
 <body>
 
-    <a href="./OverviewPage.php" class="btn purple">Ga terug</a>
+    <a href="../landingpage/index.php" class="btn purple">Ga terug</a>
 
     <div id="hotspots-container" class="hidden w-90 mw-1200 mx-auto rounded shadow text-center"
         style="background: center / cover no-repeat; display: none; max-height: 0; overflow: hidden; mso-hide: all;">
