@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBO Utrecht</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="brand"><a href="#">MBO Utrecht</a></div>
+
+        <nav>
+            <ul>
+                <li><a href="../landingpage/index.php">Home</a></li>
+                <li><a href="../differentCourses/index.php">Opleidingen</a></li>
+                <li><a href="../carousel/index.html">projecten</a></li>
+                <li><a href="../carousel/mboutrecht.html">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container-map">
+        <h1>Hier kunt u de lokatie van MBO Utrecht vinden!!</h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2451.592930180293!2d5.158462715618299!3d52.087139775969995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c668a2918b16e9%3A0x95fac93d2c242c97!2sDaltonlaan%20300%2C%203584%20BK%20Utrecht!5e0!3m2!1sen!2snl!4v1665991819241!5m2!1sen!2snl"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="galleryContainer">
+        <div class="slideShowContainer">
+            <div id="playPause" onclick="playPauseSlides()"></div>
+            <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+            <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+            <div class="captionTextHolder">
+                <p class="captionText slideTextFromTop"></p>
+            </div>
+            <div class="imageHolder">
+                <img src="./images/mboutrecht1.png">1366X768
+                <p class="captionText">Dit is hoe MBO Utrecht eruit ziet van de voorkant.</p>
+            </div>
+            <div class="imageHolder">
+                <img src="./images/th.png">
+                <p class="captionText">Dit is hoe een van de lokalen eruit ziet.</p>
+            </div>
+            <div class="imageHolder">
+                <img src="./images/mboutrecht2.png">
+                <p class="captionText">Hier heeft u een view van waar MBO Utrecht zich bevindt.</p>
+            </div>
+        </div>
+        <div id="dotsContainer"></div>
+    </div>
+    <script src="myScript.js"></script>
