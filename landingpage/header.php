@@ -11,6 +11,7 @@
             <li><a href="../differentCourses/index.php">Opleidingen</a></li>
             <li><a href="./enquete.html">Survey</a></li>
             <li><a href="../dashboard/index.php">dashboard</a></li>
+            <li><a href="../aboutus/index.php">About us</a></li>
         </ul>
     </nav>
 </header>
