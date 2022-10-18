@@ -6,6 +6,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../naviatepage/style/style.css">
+
+
 
     <!-- wordt alleen gebruikt voor incons in footer -->
 
@@ -14,7 +17,7 @@
 
 <body>
 
-
+    <?php include("header.php"); ?>
     <button class="banner-refresh" onClick="history.go(0);">
         <div class="header">
             <div class="info">
@@ -26,9 +29,14 @@
         </div>
     </button>
     <div class="container">
+
+        <?php include("../naviatepage/OverviewPage.php"); ?>
     </div>
+
     <link rel="stylesheet" href="css/footer.css">
     <?php include("./footer.php"); ?>
+    <script src="script.js"></script>
+
 </body>
 
 </html>

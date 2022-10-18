@@ -11,11 +11,11 @@
 
 <body>
 
-    <a href="./verdieping3.php" class="btn purple">Verdieping 3</a>
+    <a href="../naviatepage/verdieping3.php" class="btn purple">Verdieping 3</a>
 
     <br>
 
-    <a href="./verdieping4.php" class="btn purple">Verdieping 4</a>
+    <a href="../naviatepage/verdieping4.php" class="btn purple">Verdieping 4</a>
 
 </body>
 
