@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
-    
+
     <!-- wordt alleen gebruikt voor incons in footer -->
 
     <title>Opendag | MBO</title>
@@ -27,15 +27,8 @@
     </button>
     <div class="container">
     </div>
-
-    
     <link rel="stylesheet" href="css/footer.css">
-
-
-    
-
     <?php include("./footer.php"); ?>
-
 </body>
 
 </html>

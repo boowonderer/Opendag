@@ -262,8 +262,7 @@
 
     <!--<![endif]-->
     <div id="fallback" class="text-center bold text-m">
-        Does not support hotspots!
-    </div>
+        ERROR </div>
 </body>
 
 </html>

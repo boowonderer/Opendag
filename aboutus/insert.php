@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-
-<body>
-
-    <?php
-
+<?php
 		// servername => localhost
 		// username => root
 		// password => empty
@@ -33,7 +26,7 @@
 
 		
 		if (mysqli_query($conn, $sql)){
-			header("Location: ./form_done.php");
+			header("Location: ./formulier.php");
 			
 		} else{
 			echo "ERROR $sql. "
@@ -43,7 +36,3 @@
 		// Close connection
 		mysqli_close($conn);
 		?>
-
-</body>
-
-</html>

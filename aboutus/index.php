@@ -1,14 +1,9 @@
 <link rel="stylesheet" href="style.css">
-
-
-
 <div class="content">
     <strong style="font-size:1.5rem;">MBO Utrecht</strong>
     <ul>
         <strong>Bij MBO Utrecht zijn we bereikbaar via telefoon, e-mail en WhatsApp. Heb je een vraag over onze Open
             Dagen, opleidingen of aanmelden neem contact op via WhatsApp.<strong>
-
-
     </ul>
     <br>
     <strong style="font-size:1.5rem;">Contact</strong>
@@ -27,14 +22,9 @@
             Locatie:
             <ul>Daltonlaan 300
                 3584 BtK Utrecht</ul>
-
-
-    </ul>
-    </li>
     </ul>
     <br>
     <ul>
         <button onclick="location.href='./formulier.php'">Formulier</button>
     </ul>
-
 </div>
