@@ -225,11 +225,15 @@ header ul li:hover::after {
 */
 
 .container {
+    display: flex;
     height: 50vw;
     min-height: 200px;
     max-height: 400px;
     min-width: 300px;
     background-color: #15121e;
+    align-items: center;
+    justify-content: center;
+
 }
 
 /* 
