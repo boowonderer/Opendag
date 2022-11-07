@@ -46,13 +46,13 @@
         <div class="col social">
             <h1>Social</h1>
             <ul>
-                <a href="https://facebook.com" target="_blank">
+                <a href="https://www.facebook.com/mboutrechtalgemeen" target="_blank">
                     <div class="fb">
 
                         <img src="https://rocka.co/images/icons/ic_facebook.svg">
                     </div>
                 </a>
-                <a href="https://twitter.com" target="_blank">
+                <a href="https://twitter.com/MBOUtrecht" target="_blank">
                     <div class="tw">
 
                         <img src="https://rocka.co/images/icons/ic_twitter.svg">
