@@ -71,7 +71,9 @@ h6 { font-size: 1rem; }
 }
 
 .meta{
-    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+   color: white; 
+   text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    
 }
 /* 
     NAV BAR
