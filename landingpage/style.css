@@ -10,12 +10,14 @@ html, body {
     
 }
 
-h1 { font-size: 3rem; }
+h1 { font-size: 3rem; text-shadow: rgb(255, 255, 255) 1px 0 10px; }
 h2 { font-size: 2rem; }
 h3 { font-size: 1.5rem; }
 h4 { font-size: 1.2rem; }
 h5 { font-size: 1rem; font-weight: bold; }
 h6 { font-size: 1rem; }
+
+
 
 /* 
     BANNER
@@ -37,7 +39,7 @@ h6 { font-size: 1rem; }
     min-height: 400px;
     max-height: 600px;
     min-width: 300px;
-    color:rgb(16, 108, 174);
+    color:rgb(0, 57, 97);
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -65,8 +67,12 @@ h6 { font-size: 1rem; }
     font-size: 1rem;
     margin-top: -2rem;
     opacity: 1;
+    
 }
 
+.meta{
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
 /* 
     NAV BAR
 */

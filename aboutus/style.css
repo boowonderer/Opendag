@@ -7,7 +7,7 @@ html, body { min-height: 100%; }
 
 body {
 	background-color: #1DAEEC;
-	background-image: linear-gradient(to bottom, #0009, transparent);
+	background-image: linear-gradient(to bottom, rgba(51, 40, 109, 0.6), transparent);
 	color: #eee;
 	font-family: 'Lato', sans-serif;
 	font-size: 62.5%;
@@ -90,11 +90,6 @@ input[type=submit]:hover {
   background-color: #263340;
 }
 
-.container {
-  border-radius: 5px;
-  background-color: white;
-  padding: 20px;
-}
 
 @media all and (max-width: 550px) {
     .contact-row {
@@ -102,8 +97,6 @@ input[type=submit]:hover {
         width: 100%;
     }
 }
-.container {
-	max-width: 900px;
-	width: 100%;
-	margin: auto;
-  }
+
+
+  
