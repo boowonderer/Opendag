@@ -11,6 +11,8 @@ body {
 
 }
 
+
+
 h1 {
     font-size: 3rem;
     text-shadow: rgb(255, 255, 255) 1px 0 10px;
@@ -59,7 +61,7 @@ h6 {
     min-height: 400px;
     max-height: 600px;
     min-width: 300px;
-    color: rgb(0, 57, 97);
+    color: #1daeec;
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -92,7 +94,7 @@ h6 {
 
 
 .meta{
-   color: white; 
+   color: #fd0; 
    text-shadow: rgb(0, 0, 0) 1px 0 10px;
 
 }
@@ -107,14 +109,13 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0.1rem 5rem;
-    background: linear-gradient(180deg, #6fb4fd 0%, #5caafc 100%);
 }
 
 .brand a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #fff;
+    color: black;
 }
 
 header ul {
@@ -129,7 +130,7 @@ header ul li {
 
 header ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 0.9rem;
     font-weight: 900;
 }
@@ -260,9 +261,9 @@ header ul li:hover::after {
     display: flex;
     height: 50vw;
     min-height: 200px;
+    background-color: #d4edfc;
     max-height: 400px;
     min-width: 300px;
-    background-color: #15121e;
     align-items: center;
     justify-content: center;
 
@@ -386,3 +387,71 @@ header ul li:hover::after {
         width: 100%;
     }
 }
+
+.home-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #d4edfc; 
+    width: 100%;
+}
+
+.home-about .image{
+    flex:1 1 41rem;
+}
+
+.home-about .image img{
+    width: 75%;
+}
+
+.home-about .content{
+    flex: 20rem;
+    padding: 2rem;
+    margin-right: 3rem;
+    background-color: #fff;
+}
+
+.home-about .content h3{
+    font-size: 2rem;
+    color: black;
+}
+
+.home-about .content p{
+    font-size: 1rem;
+    padding:1rem 0;
+    line-height: 2;
+    color: black;
+}
+
+.purple {
+    background-color: #fd0;
+}
+.btn {
+    display: flex;
+    padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 8px;
+    color: black;
+    display: inline-block;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgb(0 0 0 / 10%) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgb(0 0 0 / 10%) inset;
+    position: relative;
+    align-content: center;
+}
+
+.containers{
+    background-color: #d4edfc;
+}
+
+
