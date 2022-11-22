@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     padding: 0;
@@ -7,15 +8,38 @@ html, body {
     font-family: sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    
+
 }
 
-h1 { font-size: 3rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.5rem; }
-h4 { font-size: 1.2rem; }
-h5 { font-size: 1rem; font-weight: bold; }
-h6 { font-size: 1rem; }
+
+
+h1 {
+    font-size: 3rem;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+
 
 /* 
     BANNER
@@ -37,11 +61,11 @@ h6 { font-size: 1rem; }
     min-height: 400px;
     max-height: 600px;
     min-width: 300px;
-    color:rgb(16, 108, 174);
+    color: #1daeec;
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(https://www.mboutrecht.nl/wp-content/uploads/2020/10/MBO-Utrecht-2020-algemeen-52-1920x630.jpg); 
+    background-image: url(https://www.mboutrecht.nl/wp-content/uploads/2020/10/MBO-Utrecht-2020-algemeen-52-1920x630.jpg);
     /* background: radial-gradient( #2A2541 40%,#15121e 100%);   */
     z-index: 0;
 }
@@ -65,25 +89,34 @@ h6 { font-size: 1rem; }
     font-size: 1rem;
     margin-top: -2rem;
     opacity: 1;
+
+}
+
+
+.meta{
+   color: #fd0; 
+   text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+.meta {
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
 }
 
 /* 
     NAV BAR
 */
 
-  header {
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0.1rem 5rem;
-    background: linear-gradient(180deg, #6fb4fd 0%, #5caafc 100%);
 }
 
 .brand a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #fff;
+    color: black;
 }
 
 header ul {
@@ -97,10 +130,10 @@ header ul li {
 }
 
 header ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 0.9rem;
-  font-weight: 900;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 900;
 }
 
 
@@ -118,8 +151,8 @@ header ul li::after {
 header ul li:hover::after {
     width: 2rem;
 }
-  
-  .menu-toggle .bar{
+
+.menu-toggle .bar {
     width: 25px;
     height: 3px;
     background-color: #3f3f3f;
@@ -127,98 +160,99 @@ header ul li:hover::after {
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-  }
-  
-  .menu-toggle {
+}
+
+.menu-toggle {
     justify-self: end;
     margin-right: 25px;
     display: none;
-  }
-  
-  .menu-toggle:hover{
+}
+
+.menu-toggle:hover {
     cursor: pointer;
-  }
-  
-  #mobile-menu.is-active .bar:nth-child(2){
+}
+
+#mobile-menu.is-active .bar:nth-child(2) {
     opacity: 0;
-  }
-  
-  #mobile-menu.is-active .bar:nth-child(1){
+}
+
+#mobile-menu.is-active .bar:nth-child(1) {
     -webkit-transform: translateY(8px) rotate(45deg);
     -ms-transform: translateY(8px) rotate(45deg);
     -o-transform: translateY(8px) rotate(45deg);
     transform: translateY(8px) rotate(45deg);
-  }
-  
-  #mobile-menu.is-active .bar:nth-child(3){
+}
+
+#mobile-menu.is-active .bar:nth-child(3) {
     -webkit-transform: translateY(-8px) rotate(-45deg);
     -ms-transform: translateY(-8px) rotate(-45deg);
     -o-transform: translateY(-8px) rotate(-45deg);
     transform: translateY(-8px) rotate(-45deg);
-  }
-  
-  
-  /* Media Queries */
-  
-    /* Mobile Devices - Phones/Tablets */
-  
-  @media only screen and (max-width: 720px) { 
+}
+
+
+/* Media Queries */
+
+/* Mobile Devices - Phones/Tablets */
+
+@media only screen and (max-width: 720px) {
     .features {
-      flex-direction: column;
-      padding: 50px;
+        flex-direction: column;
+        padding: 50px;
     }
 
     header {
-      padding: 1rem;
+        padding: 1rem;
     }
-    
-    header nav ul {
-      background-color: #5caafc;
-      
-  }
-    
-    
-    /* MOBILE NAVIGATION */
-       
-    nav ul {
-      display: flex;
-      flex-direction: column;
-      position: fixed;
-      justify-content: start;
-      top: 46px;
-      background-color: #fff;
-      width: 100%;
-      height: calc(100vh - 55px);
-      transform: translateX(150%);
-      transition: transform 0.3s ease-in-out;
-      text-align: center;
-      overflow: hidden;
-      z-index: 2;
-    }
-    
-    nav li {
-      padding: 15px;
-    }
-    
-    nav li:first-child {
-      margin-top: 50px;
-    }
-    
-    nav li a {
-      font-size: 1rem;
-    }
-     
-    .menu-toggle, .bar {
-      display: block;
-      cursor: pointer;
-    }
-    
-    .mobile-nav {
-    transform: translateX(-90%);
-    z-index: 2;
-  }
 
-  }
+    header nav ul {
+        background-color: #5caafc;
+
+    }
+
+
+    /* MOBILE NAVIGATION */
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        justify-content: start;
+        top: 46px;
+        background-color: #fff;
+        width: 100%;
+        height: calc(100vh - 55px);
+        transform: translateX(150%);
+        transition: transform 0.3s ease-in-out;
+        text-align: center;
+        overflow: hidden;
+        z-index: 2;
+    }
+
+    nav li {
+        padding: 15px;
+    }
+
+    nav li:first-child {
+        margin-top: 50px;
+    }
+
+    nav li a {
+        font-size: 1rem;
+    }
+
+    .menu-toggle,
+    .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobile-nav {
+        transform: translateX(-90%);
+        z-index: 2;
+    }
+
+}
 
 /* 
     Container
@@ -228,9 +262,9 @@ header ul li:hover::after {
     display: flex;
     height: 50vw;
     min-height: 200px;
+    background-color: #d4edfc;
     max-height: 400px;
     min-width: 300px;
-    background-color: #15121e;
     align-items: center;
     justify-content: center;
 
@@ -289,7 +323,7 @@ header ul li:hover::after {
 .social ul li {
     display: inline-block;
     padding-right: 5px !important;
-    
+
 }
 
 .footer .col ul li:hover {
@@ -354,3 +388,71 @@ header ul li:hover::after {
         width: 100%;
     }
 }
+
+.home-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #d4edfc; 
+    width: 100%;
+}
+
+.home-about .image{
+    flex:1 1 41rem;
+}
+
+.home-about .image img{
+    width: 75%;
+}
+
+.home-about .content{
+    flex: 20rem;
+    padding: 2rem;
+    margin-right: 3rem;
+    background-color: #fff;
+}
+
+.home-about .content h3{
+    font-size: 2rem;
+    color: black;
+}
+
+.home-about .content p{
+    font-size: 1rem;
+    padding:1rem 0;
+    line-height: 2;
+    color: black;
+}
+
+.purple {
+    background-color: #fd0;
+}
+.btn {
+    display: flex;
+    padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 8px;
+    color: black;
+    display: inline-block;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgb(0 0 0 / 10%) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgb(0 0 0 / 10%) inset;
+    position: relative;
+    align-content: center;
+}
+
+.containers{
+    background-color: #d4edfc;
+}
+
+

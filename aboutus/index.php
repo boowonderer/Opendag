@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="style.css">
+<?php include("../landingpage/header.php"); ?>
 <div class="content">
     <strong style="font-size:1.5rem;">MBO Utrecht</strong>
     <ul>

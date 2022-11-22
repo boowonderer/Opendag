@@ -1,3 +1,5 @@
+<?php include("../landingpage/header.php");?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,22 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MBO Utrecht</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../landingpage/style.css">
+
 </head>
 
 <body>
-    <header>
-        <div class="brand"><a href="#">MBO Utrecht</a></div>
 
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./enquete.html">Survey</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="./dashboard.php">Course</a></li>
-                <li><a href="./mboutrecht.html">Dashboard</a></li>
-            </ul>
-        </nav>
-    </header>
     <form action="upload.php" method="POST">
         <table>
             <tr>
@@ -78,7 +70,9 @@
             </tr>
         </table>
     </form>
-</body>
+
 </body>
 
 </html>
+
+<?php include("../landingpage/footer.php");?>

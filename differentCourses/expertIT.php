@@ -1,4 +1,4 @@
-<?php include("../landingpage/header.php");?>
+    <?php include("../landingpage/header.php");?>
 
 <!DOCTYPE html>
 <html lang="en">
