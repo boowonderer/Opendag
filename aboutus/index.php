@@ -22,7 +22,9 @@
             </ul>
             Locatie:
             <ul>Daltonlaan 300
-                3584 BtK Utrecht</ul>
+                3584 BtK Utrecht </ul>
+            <a href="/aboutus/google.php">Google maps</a>
+
     </ul>
     <br>
     <ul>

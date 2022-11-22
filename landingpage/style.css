@@ -90,16 +90,12 @@ h6 {
 
 }
 
-<<<<<<< HEAD
+
 .meta{
    color: white; 
    text-shadow: rgb(0, 0, 0) 1px 0 10px;
-    
-=======
-.meta {
-    text-shadow: rgb(255, 255, 255) 1px 0 10px;
->>>>>>> 46cd6fa0fd5832a410cea4e8c0b6a35d8091746c
 }
+
 
 /* 
     NAV BAR
