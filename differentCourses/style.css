@@ -3,13 +3,8 @@
   box-sizing: border-box;
   
 }
-
-.background{
-    background-color: #15121e;
-}
-
-body{
-  background-color: #15121e;
+.titel h4{
+  color: black;
 }
 
 .containers {
@@ -84,6 +79,10 @@ body{
   color: #545d7a;
 }
 
+.row1-container, .row2-container{
+  background-color: #d4edfc;
+}
+
 @media (max-width: 768px){
     .containers{
         margin-left: 4rem;
@@ -121,14 +120,14 @@ a{
 
 .header .tekst{
   margin-top: 27rem;
-  background-color: #5caafc;
+  background-color: #1daeec;
   color: white;
   padding: 0.5rem;
 }
 
 .sections{
   display: flex;
-  background-color:  #15121e;
+  background-color:  #d4edfc;
   justify-content: center;
 }
 
