@@ -1,5 +1,14 @@
 <link rel="stylesheet" href="style.css">
 <?php include("../landingpage/header.php"); ?>
+<button class="banner-refresh" onClick="history.go(0);">
+    <div class="header">
+        <div class="info">
+            <div class="meta">
+                <strong>Kom de sfeer proeven en kijk of MBO Utrecht bij je past.</strong>
+            </div>
+        </div>
+    </div>
+</button>
 <div class="content">
     <strong style="font-size:1.5rem;">MBO Utrecht</strong>
     <ul>
@@ -23,7 +32,6 @@
             Locatie:
             <ul>Daltonlaan 300
                 3584 BtK Utrecht </ul>
-            <a href="/aboutus/google.php">Google maps</a>
 
     </ul>
     <br>
