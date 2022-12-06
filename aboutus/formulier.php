@@ -1,15 +1,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css">
 	<?php include("../landingpage/header.php"); ?>
-	<button class="banner-refresh" onClick="history.go(0);">
-	    <div class="header">
-	        <div class="info">
-	            <div class="meta">
-	                <strong>Kom de sfeer proeven en kijk of MBO Utrecht bij je past.</strong>
-	            </div>
-	        </div>
-	    </div>
-	</button>
 	<div class="content">
 	    <br>
 	    <strong style="font-size:1.5rem;">Contact formulier</strong>
