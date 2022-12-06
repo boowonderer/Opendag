@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="../landingpage/style.css ">
 </head>
 
 <body>
+
+    <?php include("../landingpage/header.php"); ?>
 
     <a href="../landingpage/index.php" class="btn purple">Ga terug</a>
 
@@ -263,6 +266,8 @@
     <!--<![endif]-->
     <div id="fallback" class="text-center bold text-m">
         ERROR </div>
+
+    <?php include("../landingpage/footer.php"); ?>
 </body>
 
 </html>

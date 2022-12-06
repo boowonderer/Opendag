@@ -1,5 +1,13 @@
 <?php
+     include("../landingpage/header.php");
+?>
 
+<head>
+    <link rel="stylesheet" href="../landingpage/style.css">
+</head>
+
+<?php
+     include("../landingpage/banner.php");
 ?>
 
 <link rel="stylesheet" href="./css/style.css">
@@ -22,3 +30,5 @@
         </li>
     </ul>
 </form>
+
+<?php include("../landingpage/footer.php");?>
