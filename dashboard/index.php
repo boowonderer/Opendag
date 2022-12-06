@@ -1,4 +1,5 @@
-
+<?php include("../landingpage/header.php"); ?>
+<?php include("../landingpage/banner.php"); ?>
 
 <?php
 require_once '../register/mysql.php';
@@ -27,6 +28,7 @@ if ($opleiding_results->num_rows > 0) {
 
 <head>
     <link rel="stylesheet" href="./stye.css">
+    <link rel="stylesheet" href="../landingpage/style.css">
 </head>
 
 <body>
@@ -64,3 +66,5 @@ if ($opleiding_results->num_rows > 0) {
 </body>
 
 </html>
+
+<?php include("../landingpage/footer.php"); ?>
