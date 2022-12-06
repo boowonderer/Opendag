@@ -37,9 +37,7 @@
 
 
     <section class="home-about">
-        <div class="image">
-            <img src="images/brand.jpg" alt="">
-        </div>
+
         <div class="content">
             <h3>
                 Over ons
