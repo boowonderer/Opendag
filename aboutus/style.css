@@ -6,12 +6,11 @@ html, body, h1, h2, h3, h4, h5, h6, p, li, ol, ul, pre {
 html, body { min-height: 100%; }
 
 body {
-	background-color: #1DAEEC;
-	background-image: linear-gradient(to bottom, rgba(51, 40, 109, 0.6), transparent);
+	background-color: #d4edfc;
 	color: #eee;
 	font-family: 'Lato', sans-serif;
 	font-size: 62.5%;
-	padding: 0 20px;
+	
 	box-sizing: border-box;
 }
 code {
@@ -21,7 +20,7 @@ code {
 }
 
 .content {
-	background-color: #fff;
+	background-color: #d4edfc;
 	border-radius: 8px;
 	box-sizing: border-box;
 	color: #666;
@@ -38,21 +37,21 @@ code {
 	padding: 0;
 }
 
+/* .about{
+	background-color: #d4edfc;
+} */
+
 .submit{
-	box-shadow:inset 0px 1px 0px 0px #000000;
-	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
-	background-color:rgb(89, 255, 128);
 	border-radius:11px;
-	border:2px solid black;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#fd0;
 	font-family:Arial;
 	font-size:16px;
 	font-weight:bold;
 	padding:8px 18px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #000000;
+	
 }
 
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -70,25 +69,20 @@ input, select, textarea {
 }
 
 input[type=submit] {
-	box-shadow:inset 0px 1px 0px 0px #000000;
-	background:linear-gradient(to bottom, #000000 5%, #000000 100%);
-	background-color:rgb(89, 255, 128);
 	border-radius:11px;
-	border:2px solid black;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:black;
+	background-color: #fd0;
 	font-family:Arial;
 	font-size:16px;
 	font-weight:bold;
 	padding:8px 18px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #263340;
+	
 }
 
-input[type=submit]:hover {
-  background-color: #263340;
-}
+
 
 
 @media all and (max-width: 550px) {
@@ -99,4 +93,136 @@ input[type=submit]:hover {
 }
 
 
+
+
+.header .info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+
+.header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: -1rem;
+}
+
+.header .meta {
+    font-size: 1rem;
+    margin-top: -2rem;
+    opacity: 1;
+
+}
+.meta {
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+
+}
+/* 
+    NAV BAR
+*/
+
+header {
+    display: flex;
+    align-items: center;
+	height: 4.5vw;
+    justify-content: space-between;
+    padding: 0.1rem 5rem;
+    background: white;
+}
+
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    list-style-type: none;
+    margin-left: 4rem;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
+
+header ul li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+header ul li:hover::after {
+    width: 2rem;
+}
+
+
+.banner-refresh {
+    display: contents;
+}
+
   
+.header {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 50vw;
+    min-height: 400px;
+    max-height: 600px;
+    min-width: 300px;
+    color: rgb(0, 57, 97);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://www.mboutrecht.nl/wp-content/uploads/2020/10/MBO-Utrecht-2020-algemeen-52-1920x630.jpg);
+    /* background: radial-gradient( #2A2541 40%,#15121e 100%);   */
+    z-index: 0;
+}
+
+.header .info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+
+.header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: -1rem;
+}
+
+
+.meta {
+    color: #fd0;
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    position: absolute;
+	left: 34rem;
+    top: 50%;
+
+
+}
