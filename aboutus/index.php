@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="style.css">
+
 <?php include("../landingpage/header.php"); ?>
 <button class="banner-refresh" onClick="history.go(0);">
     <div class="header">
@@ -39,3 +40,4 @@
         <button onclick="location.href='./formulier.php'">Formulier</button>
     </ul>
 </div>
+<?php include("../landingpage/footer.php"); ?>
