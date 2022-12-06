@@ -32,3 +32,5 @@
 
 	</div>
 	</div>
+
+	<?php include("../landingpage/footer.php"); ?>
