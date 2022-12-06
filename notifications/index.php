@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
+
+<?php include("../landingpage/header.php");?>
 <head>
 	<title>Switch button</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="../landingpage/style.css">
 </head>
 <body>
 	<h3>Wilt u 30 minuten voor de les een notificatie ontvangen?</h3>
@@ -14,5 +17,7 @@
 		</div>
 	</div>
 	<script src="index.js"></script>
+
+	<?php include("../landingpage/footer.php");?>
 </body>
 </html>
