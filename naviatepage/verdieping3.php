@@ -12,7 +12,7 @@
 
 <body>
 
-    <?php include("../landingpage/header.php"); ?>
+
 
     <a href="../landingpage/index.php" class="btn purple">Ga terug</a>
 
@@ -267,7 +267,7 @@
     <div id="fallback" class="text-center bold text-m">
         ERROR </div>
 
-    <?php include("../landingpage/footer.php"); ?>
+
 </body>
 
 </html>

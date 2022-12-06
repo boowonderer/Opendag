@@ -93,142 +93,6 @@ input[type=submit] {
 }
 
 
-
-
-.header .info {
-    display: flex;
-    flex-direction: column;
-    margin-top: 7rem;
-}
-
-.header h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 5rem;
-    margin-top: -1rem;
-}
-
-.header .meta {
-    font-size: 1rem;
-    margin-top: -2rem;
-    opacity: 1;
-
-}
-.meta {
-    color: white;
-    text-shadow: rgb(0, 0, 0) 1px 0 10px;
-
-}
-/* 
-    NAV BAR
-*/
-
-header {
-    display: flex;
-    align-items: center;
-	height: 4.5vw;
-    justify-content: space-between;
-    padding: 0.1rem 5rem;
-    background: white;
-}
-
-.brand a {
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: black;
-}
-
-header ul {
-    display: flex;
-    flex-direction: row;
-}
-
-header ul li {
-    list-style-type: none;
-    margin-left: 4rem;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 0.9rem;
-    font-weight: 900;
-}
-
-
-header ul li::after {
-    content: '';
-    width: 0rem;
-    height: 0.15rem;
-    background-color: #fff;
-    display: block;
-    border-radius: 0.2rem;
-    margin: 0.2rem auto 0 auto;
-    transition: all 0.3s ease-in-out;
-}
-
-header ul li:hover::after {
-    width: 2rem;
-}
-
-
-.banner-refresh {
-    display: contents;
-}
-
-  
-.header {
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    height: 50vw;
-    min-height: 400px;
-    max-height: 600px;
-    min-width: 300px;
-    color: rgb(0, 57, 97);
-    background-size: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(https://www.mboutrecht.nl/wp-content/uploads/2020/10/MBO-Utrecht-2020-algemeen-52-1920x630.jpg);
-    /* background: radial-gradient( #2A2541 40%,#15121e 100%);   */
-    z-index: 0;
-}
-
-.header .info {
-    display: flex;
-    flex-direction: column;
-    margin-top: 7rem;
-}
-
-.header h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 5rem;
-    margin-top: -1rem;
-}
-
-
-.meta {
-    color: #fd0;
-    text-shadow: rgb(0, 0, 0) 1px 0 10px;
-    position: absolute;
-	left: 34rem;
-    top: 50%;
-
-
-}
-
-
-
 .footer {
     width: 100%;
     position: relative;
@@ -290,4 +154,156 @@ header ul li:hover::after {
 
 .clearfix {
     clear: both;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 5rem;
+    background: linear-gradient(180deg, #6fb4fd 0%, #5caafc 100%);
+}
+
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    list-style-type: none;
+    margin-left: 4rem;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
+
+header ul li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+header ul li:hover::after {
+    width: 2rem;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #3f3f3f;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-toggle {
+    justify-self: end;
+    margin-right: 25px;
+    display: none;
+}
+
+.menu-toggle:hover {
+    cursor: pointer;
+}
+
+#mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+#mobile-menu.is-active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+    -ms-transform: translateY(8px) rotate(45deg);
+    -o-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+}
+
+#mobile-menu.is-active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    -ms-transform: translateY(-8px) rotate(-45deg);
+    -o-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+
+/* Media Queries */
+
+/* Mobile Devices - Phones/Tablets */
+
+@media only screen and (max-width: 720px) {
+    .features {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    header nav ul {
+        background-color: #5caafc;
+
+    }
+
+
+    /* MOBILE NAVIGATION */
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        justify-content: start;
+        top: 46px;
+        background-color: #fff;
+        width: 100%;
+        height: calc(100vh - 55px);
+        transform: translateX(150%);
+        transition: transform 0.3s ease-in-out;
+        text-align: center;
+        overflow: hidden;
+        z-index: 2;
+    }
+
+    nav li {
+        padding: 15px;
+    }
+
+    nav li:first-child {
+        margin-top: 50px;
+    }
+
+    nav li a {
+        font-size: 1rem;
+    }
+
+    .menu-toggle,
+    .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobile-nav {
+        transform: translateX(-90%);
+        z-index: 2;
+    }
+
 }
