@@ -16,7 +16,8 @@
 
 <body>
 
-    <div class="background">
+
+    <div class="differentcourses">
 
         <div class="Titel">
             <h4>
@@ -120,13 +121,17 @@
                 </a>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <?php include("../landingpage/footer.php");?>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
+
+
+
 </body>
 
 </html>
-
-<?php include("../landingpage/footer.php");?>

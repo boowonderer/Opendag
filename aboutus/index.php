@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="style.css">
 <?php include("../landingpage/header.php"); ?>
+<link rel="stylesheet" href="../landingpage/style.css">
 <button class="banner-refresh" onClick="history.go(0);">
     <div class="header">
         <div class="info">
