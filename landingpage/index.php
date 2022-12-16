@@ -17,6 +17,7 @@
 
 <body>
 
+
     <?php include("header.php"); ?>
     <button class="banner-refresh" onClick="history.go(0);">
         <div class="header">
@@ -36,18 +37,7 @@
 
 
 
-    <section class="home-about">
-        <div class="image">
-            <img src="images/brand.jpg" alt="">
-        </div>
-        <div class="content">
-            <h3>
-                Over ons
-            </h3>
-            <p>Wil jij meer te weten komen over ons!</p>
-            <a href="../aboutus/index.php" class="btn purple">Druk dan Hier!</a>
-        </div>
-    </section>
+
 
 
 
@@ -57,6 +47,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <?php include("./footer.php"); ?>
     <script src="script.js"></script>
+
 
 </body>
 
