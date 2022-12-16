@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="style.css">
 <?php include("../landingpage/header.php"); ?>
+<<<<<<< HEAD
 <link rel="stylesheet" href="../landingpage/style.css">
 <button class="banner-refresh" onClick="history.go(0);">
     <div class="header">
@@ -10,6 +11,9 @@
         </div>
     </div>
 </button>
+=======
+
+>>>>>>> c02282b9df1e5a1b09f7377aeaaff929b48bdfa9
 <div class="content">
     <strong style="font-size:1.5rem;">MBO Utrecht</strong>
     <ul>
@@ -40,3 +44,4 @@
         <button onclick="location.href='./formulier.php'">Formulier</button>
     </ul>
 </div>
+<?php include("../landingpage/footer.php"); ?>

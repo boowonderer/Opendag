@@ -93,35 +93,220 @@ input[type=submit] {
 }
 
 
-
-
-.header .info {
-    display: flex;
-    flex-direction: column;
-    margin-top: 7rem;
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #0B132B;
 }
 
-.header h1 {
+.footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+}
+
+.footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255, 255, 255, 0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+}
+
+.footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+}
+
+.social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+
+}
+
+.footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+
+<<<<<<< HEAD
+=======
+header {
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    font-size: 5rem;
-    margin-top: -1rem;
+    justify-content: space-between;
+    padding: 1.3rem 5rem;
+    background: linear-gradient(180deg, #6fb4fd 0%, #5caafc 100%);
 }
 
-.header .meta {
-    font-size: 1rem;
-    margin-top: -2rem;
-    opacity: 1;
-
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
 }
-.meta {
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    list-style-type: none;
+    margin-left: 4rem;
+}
+
+header ul li a {
+    text-decoration: none;
     color: white;
-    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
+
+header ul li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #fff;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+header ul li:hover::after {
+    width: 2rem;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #3f3f3f;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-toggle {
+    justify-self: end;
+    margin-right: 25px;
+    display: none;
+}
+
+.menu-toggle:hover {
+    cursor: pointer;
+}
+
+#mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+#mobile-menu.is-active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+    -ms-transform: translateY(8px) rotate(45deg);
+    -o-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+}
+
+#mobile-menu.is-active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    -ms-transform: translateY(-8px) rotate(-45deg);
+    -o-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+
+/* Media Queries */
+
+/* Mobile Devices - Phones/Tablets */
+
+@media only screen and (max-width: 720px) {
+    .features {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    header {
+        padding: 1rem;
+    }
+
+    header nav ul {
+        background-color: #5caafc;
+
+    }
+
+
+    /* MOBILE NAVIGATION */
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        justify-content: start;
+        top: 46px;
+        background-color: #fff;
+        width: 100%;
+        height: calc(100vh - 55px);
+        transform: translateX(150%);
+        transition: transform 0.3s ease-in-out;
+        text-align: center;
+        overflow: hidden;
+        z-index: 2;
+    }
+
+    nav li {
+        padding: 15px;
+    }
+
+    nav li:first-child {
+        margin-top: 50px;
+    }
+
+    nav li a {
+        font-size: 1rem;
+    }
+
+    .menu-toggle,
+    .bar {
+        display: block;
+        cursor: pointer;
+    }
+
+    .mobile-nav {
+        transform: translateX(-90%);
+        z-index: 2;
+    }
 
 }
-/* 
-    NAV BAR
-*/
-
+>>>>>>> c02282b9df1e5a1b09f7377aeaaff929b48bdfa9

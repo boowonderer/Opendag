@@ -38,6 +38,17 @@
 
 
 
+    <section class="home-about">
+
+        <div class="content">
+            <h3>
+                Over ons
+            </h3>
+            <p>Wil jij meer te weten komen over ons!</p>
+            <a href="../aboutus/index.php" class="btn purple">Druk dan Hier!</a>
+        </div>
+    </section>
+
 
 
 
