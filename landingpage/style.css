@@ -263,7 +263,7 @@ header ul li:hover::after {
     min-height: 200px;
     max-height: 400px;
     min-width: 300px;
-    background-color: #15121e;
+    background-color: white;
     align-items: center;
     justify-content: center;
 

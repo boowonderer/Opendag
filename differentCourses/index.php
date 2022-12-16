@@ -12,6 +12,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../landingpage/style.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
 </head>
 
 <body>
@@ -125,7 +126,8 @@
     <br>
     <br>
     <br>
-</body>
+
+
 
 </html>
 
