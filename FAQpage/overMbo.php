@@ -20,7 +20,7 @@
     
     <div id="FAQ">
         <div class="sidenav">
-            <a href="overMbo.php"><img src="/Opendag/FAQpage/img/arrow-right.png" alt="">Over mbo</a>
+            <a href="overMbo.php"><img src="./img/arrow-right.png" alt="">Over mbo</a>
             <a href="Studiekeuze.php">Over Studiekeuze</a>
             <a href="aanmelden.php">Over aanmelden en plaatsen</a>
             <a href="Schoolkosten.php">Over Schoolkosten</a>

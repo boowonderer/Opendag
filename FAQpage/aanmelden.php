@@ -22,7 +22,7 @@
         <div class="sidenav">
             <a href="overMbo.php">Over mbo</a>
             <a href="Studiekeuze.php">Over Studiekeuze</a>
-            <a href="aanmelden.php"><img src="/Opendagg/FAQpage/img/arrow-right.png" alt="">Over aanmelden en plaatsen</a>
+            <a href="aanmelden.php"><img src="./img/arrow-right.png" alt="">Over aanmelden en plaatsen</a>
             <a href="Schoolkosten.php">Over Schoolkosten</a>
         </div>
 

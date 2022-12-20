@@ -23,7 +23,7 @@
             <a href="overMbo.php">Over mbo</a>
             <a href="Studiekeuze.php">Over Studiekeuze</a>
             <a href="aanmelden.php">Over aanmelden en plaatsen</a>
-            <a href="Schoolkosten.php"><img src="/Opendag/FAQpage/img/arrow-right.png" alt="">Over Schoolkosten</a>
+            <a href="Schoolkosten.php"><img src="./img/arrow-right.png" alt="">Over Schoolkosten</a>
         </div>
 
 
