@@ -2,15 +2,8 @@
 <?php include("../landingpage/header.php"); ?>
 
 <link rel="stylesheet" href="../landingpage/style.css">
-<button class="banner-refresh" onClick="history.go(0);">
-    <div class="header">
-        <div class="info">
-            <div class="meta">
-                <strong>Kom de sfeer proeven en kijk of MBO Utrecht bij je past.</strong>
-            </div>
-        </div>
-    </div>
-</button>
+<?php include("../landingpage/banner.php"); ?>
+
 
 
 <div class="content" style="font-size: 1rem; background-color:white">

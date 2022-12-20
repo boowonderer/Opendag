@@ -127,8 +127,10 @@
     <br>
     <br>
     <br>
-
+    <br>
+    <br>
 
 </body>
+<?php include("../landingpage/footer.php");?>
 
 </html>
