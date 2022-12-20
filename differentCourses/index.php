@@ -12,11 +12,13 @@
     <title>Document</title>
     <link rel="stylesheet" href="../landingpage/style.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
 </head>
 
 <body>
 
-    <div class="background">
+
+    <div class="differentcourses">
 
         <div class="Titel">
             <h4>
@@ -125,8 +127,10 @@
     <br>
     <br>
     <br>
+    <br>
+    <br>
+
 </body>
+<?php include("../landingpage/footer.php");?>
 
 </html>
-
-<?php include("../landingpage/footer.php");?>

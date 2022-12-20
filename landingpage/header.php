@@ -1,5 +1,5 @@
 <header>
-    <div class="brand"><a href="/Opendag/landingpage/index.php">MBO Utrecht</a></div>
+    <div class="brand"><a href="../landingpage/index.php">MBO Utrecht</a></div>
 
     <nav>
         <div class="menu-toggle" id="mobile-menu">
