@@ -20,8 +20,8 @@
     
     <div id="FAQ">
         <div class="sidenav">
-            <a href="overMbo.php"><img src="/Opendag//FAQpage/img/arrow-right.png" alt="">Over mbo</a>
-            <a href="Studiekeuze.php">Over Studiekeuze</a>
+            <a href="overMbo.php">Over mbo</a>
+            <a href="Studiekeuze.php"><img src="/Opendag//FAQpage/img/arrow-right.png" alt="">Over Studiekeuze</a>
             <a href="aanmelden.php">Over aanmelden en plaatsen</a>
             <a href="Schoolkosten.php">Over Schoolkosten</a>
         </div>
@@ -30,8 +30,8 @@
         <div class="col">
             <div class="vragen">
 
-            <h1> Over mbo </h1>
-            <p> Op deze pagina vind je antwoorden op onze meest gestelde vragen over het mbo. De verschillende niveaus, toelatingseisen en de verschillende soorten opleidingen (BOL/BBL) komen aan bod. Je kunt hier ook terecht voor informatie over MHBO-opleidingen en over de opbouw van een opleiding bij MBO Utrecht.</p>
+            <h1> Studiekeuze </h1>
+            <p> </p>
                 <div class="vraag">
                     <input type="checkbox" id="vraag1" name="cb">
                     <label class="tab-label" for="vraag1">Wat zijn de verschillende niveaus op het mbo?</label>
