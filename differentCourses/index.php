@@ -129,6 +129,8 @@
     </div>
 
 </body>
+
+
 <?php include("../landingpage/footer.php");?>
 
 </html>
