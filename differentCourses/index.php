@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.scss">
 </head>
+<?php include("../landingpage/banner.php");?>
 
 <body>
 
@@ -123,12 +124,9 @@
             </div>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <div class="container">
+        <a href="../register/index.php" class="btn purple">Aanmelden voor open dag</a>
+    </div>
 
 </body>
 <?php include("../landingpage/footer.php");?>

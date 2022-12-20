@@ -1,3 +1,6 @@
+<?php include("../landingpage/header.php");?>
+<?php include("../landingpage/banner.php");?>
+<link rel="stylesheet" href="../landingpage/style.css ">
 <?php
 require_once './mysql.php';
 
@@ -49,3 +52,4 @@ $error_messages = [
         </li>
     </ul>
 </form>
+<?php include("../landingpage/footer.php");?>

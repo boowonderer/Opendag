@@ -16,7 +16,7 @@
 
 <body>
 
-    z
+
 
     <button class="banner-refresh" onClick="history.go(0);">
         <div class="header">
