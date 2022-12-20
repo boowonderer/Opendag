@@ -14,6 +14,7 @@
 
 
 
+
     <a href="../landingpage/index.php" class="btn purple">Ga terug</a>
 
     <div id="hotspots-container" class="hidden w-90 mw-1200 mx-auto rounded shadow text-center"
@@ -266,7 +267,6 @@
     <!--<![endif]-->
     <div id="fallback" class="text-center bold text-m">
         ERROR </div>
-
 
 </body>
 

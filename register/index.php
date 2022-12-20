@@ -1,6 +1,8 @@
 <?php
 require_once './mysql.php';
 
+
+
 $sql = "SELECT * FROM opleidingen";
 $result = $conn->query($sql);
 $error_messages = [
@@ -14,8 +16,10 @@ $error_messages = [
 <form action="register_form.php" class="form-style-9" method="post">
     <ul>
         <li>
-            <input type="text" name="voornaam" class="field-style field-split align-left" placeholder="Voornaam" required />
-            <input type="text" name="achternaam" class="field-style field-split align-right" placeholder="Achternaam" required />
+            <input type="text" name="voornaam" class="field-style field-split align-left" placeholder="Voornaam"
+                required />
+            <input type="text" name="achternaam" class="field-style field-split align-right" placeholder="Achternaam"
+                required />
 
         </li>
         <li>

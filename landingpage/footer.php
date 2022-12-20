@@ -13,8 +13,7 @@
                 <h1>Snel naar</h1>
                 <ul>
                     <li>Opleidingen</li>
-                    <li><a href="../FAQpage/index.php" style="text-decoration: none; color:#999;">Veelgestelde
-                            vragen</a> </li>
+                    <li>Veelgestelde vragen</li>
                     <li>Vacatures</li>
                     <li>Voor ouders</li>
                 </ul>

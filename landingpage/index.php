@@ -17,6 +17,7 @@
 
 <body>
 
+
     <?php include("header.php"); ?>
     <button class="banner-refresh" onClick="history.go(0);">
         <div class="header">
@@ -36,6 +37,7 @@
 
 
 
+
     <section class="home-about">
 
     </section>
@@ -45,9 +47,11 @@
 
 
 
+
     <link rel="stylesheet" href="css/footer.css">
     <?php include("./footer.php"); ?>
     <script src="script.js"></script>
+
 
 </body>
 

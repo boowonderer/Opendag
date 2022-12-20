@@ -8,36 +8,7 @@ body {
     font-family: sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
-
 }
-
-h1 {
-    font-size: 3rem;
-    text-shadow: rgb(255, 255, 255) 1px 0 10px;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    font-size: 1.5rem;
-}
-
-h4 {
-    font-size: 1.2rem;
-}
-
-h5 {
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-h6 {
-    font-size: 1rem;
-}
-
-
 
 /* 
     BANNER
@@ -59,7 +30,7 @@ h6 {
     min-height: 400px;
     max-height: 600px;
     min-width: 300px;
-    color: rgb(0, 57, 97);
+    color: #1daeec;
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,13 +62,13 @@ h6 {
 }
 
 
-
 .meta{
-   color: white; 
+   color: #fd0; 
    text-shadow: rgb(0, 0, 0) 1px 0 10px;
-
 }
-
+.meta {
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
 
 /* 
     NAV BAR
@@ -108,7 +79,6 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0.1rem 5rem;
-    background: linear-gradient(180deg, #6fb4fd 0%, #5caafc 100%);
 }
 
 .brand a {
@@ -130,7 +100,7 @@ header ul li {
 
 header ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 0.9rem;
     font-weight: 900;
 }
@@ -195,7 +165,7 @@ header ul li:hover::after {
 /* Mobile Devices - Phones/Tablets */
 
 @media only screen and (max-width: 720px) {
-    .features {
+ .features {
         flex-direction: column;
         padding: 50px;
     }
@@ -257,13 +227,13 @@ header ul li:hover::after {
     Container
 */
 
-.container {
+.container{
     display: flex;
     height: 50vw;
     min-height: 200px;
+    background-color: #d4edfc;
     max-height: 400px;
     min-width: 300px;
-    background-color: white;
     align-items: center;
     justify-content: center;
 
@@ -387,3 +357,37 @@ header ul li:hover::after {
         width: 100%;
     }
 }
+
+
+
+.purple {
+    background-color: #fd0;
+}
+.btn {
+    display: flex;
+    padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 8px;
+    color: black;
+    display: inline-block;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgb(0 0 0 / 10%) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgb(0 0 0 / 10%) inset;
+    position: relative;
+    align-content: center;
+}
+
+.containers{
+    background-color: #d4edfc;
+}
+
